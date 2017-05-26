@@ -1,3 +1,8 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 let cityList = ["DELHI", "KOLKATA"];
 
 let option1 = function () {
@@ -12,6 +17,7 @@ let option2 = function () {
     return cityList;
 };
 
-export default cityList;
-export { option1, option2 };
+exports.default = cityList;
+exports.option1 = option1;
+exports.option2 = option2;
 //# sourceMappingURL=first.js.map
